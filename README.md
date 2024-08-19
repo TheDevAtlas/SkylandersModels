@@ -25,7 +25,7 @@ Happy ripping!
 ---
 
 <div align="center">
-  <img src="images/O1.png" alt="image1" width="250" style="margin-right: 10px;"/>
-  <img src="images/O2.png" alt="image2" width="250" style="margin-right: 10px;"/>
-  <img src="images/O3.png" alt="image3" width="250"/>
+  <img src="images/image1.png" alt="image1" width="250" style="margin-right: 10px;"/>
+  <img src="images/image3.gif" alt="image2" width="250" style="margin-right: 10px;"/>
+  <img src="images/image2.png" alt="image3" width="250"/>
 </div>
