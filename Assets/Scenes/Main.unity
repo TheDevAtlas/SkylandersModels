@@ -382,12 +382,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08815311, y: 0.57342046, z: -0.062242784, w: 0.81212306}
-  m_LocalPosition: {x: -2.7430918, y: 1.3633175, z: -0.9740753}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1120186466}
+  m_Father: {fileID: 722224501}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -1319,6 +1319,38 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ad540cf51185a243b7923971fdfe4ca, type: 3}
   m_PrefabInstance: {fileID: 690516877}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &722224500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722224501}
+  m_Layer: 0
+  m_Name: Zoom Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &722224501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722224500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.08815311, y: 0.57342046, z: -0.062242784, w: 0.81212306}
+  m_LocalPosition: {x: -2.7430918, y: 1.3633175, z: -0.9740753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330585546}
+  m_Father: {fileID: 1120186466}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &758739647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3000,7 +3032,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 330585546}
+  - {fileID: 722224501}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1120186467
@@ -3017,8 +3049,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   mouseRotationSpeed: 1000
-  returnSpeed: 0.02
+  returnSpeed: 50
   returnDelay: 5
+  zoomSpeed: 10
+  minZoom: 0
+  maxZoom: 50
 --- !u!1001 &1152563928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4552,7 +4587,7 @@ PrefabInstance:
     - target: {fileID: -7069787809288468561, guid: 66c78094990c91b4aa6b5c881a68706e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1558d7edfec1afe4fbb8cb0255d66f20, type: 2}
+      objectReference: {fileID: 2100000, guid: cdcfd516e0c8c9941adb3f9970d359e3, type: 2}
     - target: {fileID: -5136854466123069382, guid: 66c78094990c91b4aa6b5c881a68706e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
