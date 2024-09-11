@@ -8,6 +8,8 @@
 
 This repository contains a Unity project with all of the Skylanders models that I am ripping for personal use. This includes animations, models, textures, and more. Feel free to use these files for your own fan games and animations!
 
+Here is the [video](https://www.youtube.com/watch?v=yj5JVR5vx4k&t=85s) where I rip them all :)
+
 ## Instructions
 
 For detailed instructions on how to rip models, refer to this [GitHub repository](https://github.com/TheDevAtlas/ExtractingSkylandersModels).
